@@ -1,0 +1,29 @@
+.head {
+  padding: 10px;
+}
+.left-panel {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 75px;
+}
+
+.col1 {
+  background-color: rgb(134, 135, 134);
+  height: 850px;
+  flex-basis: 20%;
+  border-right: 3px solid #eaeaea;
+}
+.col2 {
+  background-color: rgb(255,255,255);
+  height: 610px;
+  flex-basis: 79%;
+}
+
+.bottombuttons {
+  padding: 5px;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  bottom: 0px;
+  margin-left: 2px;
+}
